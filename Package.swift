@@ -5,7 +5,7 @@ import PackageDescription
 // MARK: - PackageDescription extensions
 
 Package.Inject.local.dependencies = [
-  .package(name: "WrkstrmFoundation", path: "../../universal/WrkstrmFoundation")
+  .package(name: "wrkstrm-foundation", path: "../../universal/domain/system/wrkstrm-foundation")
 ]
 
 Package.Inject.remote.dependencies = [
@@ -28,7 +28,7 @@ let package = Package(
     .target(name: "WrkstrmColor", swiftSettings: Package.Inject.shared.swiftSettings),
     .testTarget(
       name: "WrkstrmColorTests",
-      dependencies: ["WrkstrmColor", "WrkstrmFoundation"],
+      dependencies: ["WrkstrmColor", .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation")],
       resources: [.process("Resources")],
       swiftSettings: Package.Inject.shared.swiftSettings,
     ),
