@@ -28,7 +28,6 @@ let package = Package(
     .target(name: "WrkstrmColor", swiftSettings: Package.Inject.shared.swiftSettings),
     .testTarget(
       name: "WrkstrmColorTests",
-      dependencies: ["WrkstrmColor", .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation")],
       resources: [.process("Resources")],
       swiftSettings: Package.Inject.shared.swiftSettings,
     ),
