@@ -9,14 +9,14 @@ Package.Inject.local.dependencies = [
 ]
 
 Package.Inject.remote.dependencies = [
-  .package(url: "https://github.com/wrkstrm/WrkstrmFoundation.git", from: "3.0.0")
+  .package(url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0")
 ]
 
 let package = Package(
   name: "WrkstrmColor",
   platforms: [
     .iOS(.v16),
-    .macOS(.v13),
+    .macOS(.v15),
     .tvOS(.v16),
     .watchOS(.v9),
   ],
