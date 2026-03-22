@@ -18,7 +18,7 @@ Package.Inject.remote.dependencies = [
 let package = Package(
   name: "WrkstrmColor",
   platforms: [
-    .iOS(.v16),
+    .iOS(.v13),
     .macOS(.v15),
     .tvOS(.v16),
     .watchOS(.v9),
