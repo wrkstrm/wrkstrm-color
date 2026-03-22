@@ -2,14 +2,17 @@
 import Foundation
 import PackageDescription
 
+// Remote SwiftPM consumption still expects the manifest at the repo root,
+// even though the package sources and tests live under `spm/`.
+
 // MARK: - PackageDescription extensions
 
 Package.Inject.local.dependencies = [
-  .package(name: "wrkstrm-foundation", path: "../../universal/domain/system/wrkstrm-foundation")
+  .package(name: "swift-universal-foundation", path: "../../../../swift-universal/private/universal/domain/system/spm/swift-universal-foundation")
 ]
 
 Package.Inject.remote.dependencies = [
-  .package(url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0")
+  .package(url: "https://github.com/swift-universal/swift-universal-foundation.git", from: "3.0.0")
 ]
 
 let package = Package(
@@ -25,9 +28,18 @@ let package = Package(
   ],
   dependencies: Package.Inject.shared.dependencies,
   targets: [
-    .target(name: "WrkstrmColor", swiftSettings: Package.Inject.shared.swiftSettings),
+    .target(
+      name: "WrkstrmColor",
+      path: "spm/Sources/WrkstrmColor",
+      swiftSettings: Package.Inject.shared.swiftSettings,
+    ),
     .testTarget(
       name: "WrkstrmColorTests",
+      dependencies: [
+        "WrkstrmColor",
+        .product(name: "SwiftUniversalFoundation", package: "swift-universal-foundation")
+      ],
+      path: "spm/Tests/WrkstrmColorTests",
       resources: [.process("Resources")],
       swiftSettings: Package.Inject.shared.swiftSettings,
     ),

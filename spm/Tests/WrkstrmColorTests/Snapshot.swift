@@ -1,6 +1,6 @@
 import Foundation
-import WrkstrmFoundation
-import WrkstrmMain
+import SwiftUniversalFoundation
+import SwiftUniversalMain
 
 @testable import WrkstrmColor
 

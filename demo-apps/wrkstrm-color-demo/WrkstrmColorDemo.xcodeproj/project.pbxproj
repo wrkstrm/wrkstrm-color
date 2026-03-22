@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2182D08EB1604651E2094E09 /* PaletteShowcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD14FD5EF5DAF0C20741AC20 /* PaletteShowcase.swift */; };
+		5B994061534B8C9F137061BD /* AccessibilityWorkbench.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC48DD239BB4DD4B224986 /* AccessibilityWorkbench.swift */; };
+		7A9EBA6DE0CE57D922E9A27E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87770E49F7C7157AE0AFA522 /* RootView.swift */; };
+		7E1F582B1E48A52C4D39BECF /* WrkstrmColorDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F73A092EFFB39FA7500611 /* WrkstrmColorDemoApp.swift */; };
+		DAEF0BF6B9B23C45C263F7EB /* WrkstrmColor in Frameworks */ = {isa = PBXBuildFile; productRef = D7B422F2736E3AD39D615833 /* WrkstrmColor */; };
+		E2367C2E0DA827D48E2FF763 /* VariantKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2093A80A25764C5B6838D643 /* VariantKit */; };
+		E956EEF8C47B1789DA080319 /* Variants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2021198A35637CA6A7789783 /* Variants.swift */; };
+		FE3FF0C4D2CF0DFF1EF33391 /* WrkstrmSharedAppShell in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1BC990B9E79013FA3B86BC /* WrkstrmSharedAppShell */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2021198A35637CA6A7789783 /* Variants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variants.swift; sourceTree = "<group>"; };
+		21E7488CA82D9407BE18DE59 /* wrkstrm-color */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "wrkstrm-color"; path = ../..; sourceTree = SOURCE_ROOT; };
+		87770E49F7C7157AE0AFA522 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8EC13B98B1D0170993F6ABF1 /* WrkstrmColorDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrkstrmColorDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A257DEFEC1EFBC3339DD363C /* wrkstrm-shared-app-shell */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "wrkstrm-shared-app-shell"; path = "../../../../wrkstrm-app-shell/shared/spm/wrkstrm-shared-app-shell"; sourceTree = SOURCE_ROOT; };
+		A5F73A092EFFB39FA7500611 /* WrkstrmColorDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrkstrmColorDemoApp.swift; sourceTree = "<group>"; };
+		AD14FD5EF5DAF0C20741AC20 /* PaletteShowcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteShowcase.swift; sourceTree = "<group>"; };
+		C707609FB8AE1812FE7973E5 /* variant-kit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "variant-kit"; path = "../../../../../../todo3/private/code/spm/kit/variant-kit"; sourceTree = SOURCE_ROOT; };
+		E1EC48DD239BB4DD4B224986 /* AccessibilityWorkbench.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWorkbench.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1393407F6F457DC2B123F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2367C2E0DA827D48E2FF763 /* VariantKit in Frameworks */,
+				DAEF0BF6B9B23C45C263F7EB /* WrkstrmColor in Frameworks */,
+				FE3FF0C4D2CF0DFF1EF33391 /* WrkstrmSharedAppShell in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C56EFB292FA8E929C9D9B0 = {
+			isa = PBXGroup;
+			children = (
+				6ADDCE7345916CC04A0AC0A7 /* Packages */,
+				752A6CB1C753CD03EE1E5439 /* Sources */,
+				EB38264A0ABC3A49E633E697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADDCE7345916CC04A0AC0A7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C707609FB8AE1812FE7973E5 /* variant-kit */,
+				21E7488CA82D9407BE18DE59 /* wrkstrm-color */,
+				A257DEFEC1EFBC3339DD363C /* wrkstrm-shared-app-shell */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		752A6CB1C753CD03EE1E5439 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1EC48DD239BB4DD4B224986 /* AccessibilityWorkbench.swift */,
+				AD14FD5EF5DAF0C20741AC20 /* PaletteShowcase.swift */,
+				87770E49F7C7157AE0AFA522 /* RootView.swift */,
+				2021198A35637CA6A7789783 /* Variants.swift */,
+				A5F73A092EFFB39FA7500611 /* WrkstrmColorDemoApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EB38264A0ABC3A49E633E697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC13B98B1D0170993F6ABF1 /* WrkstrmColorDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C53218D7F89F5DFA82B349 /* WrkstrmColorDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81D799FAF53184AFC44C60C /* Build configuration list for PBXNativeTarget "WrkstrmColorDemoApp" */;
+			buildPhases = (
+				F9576943B48F0EF11DBA6859 /* Sources */,
+				F1393407F6F457DC2B123F08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WrkstrmColorDemoApp;
+			packageProductDependencies = (
+				2093A80A25764C5B6838D643 /* VariantKit */,
+				D7B422F2736E3AD39D615833 /* WrkstrmColor */,
+				9E1BC990B9E79013FA3B86BC /* WrkstrmSharedAppShell */,
+			);
+			productName = WrkstrmColorDemoApp;
+			productReference = 8EC13B98B1D0170993F6ABF1 /* WrkstrmColorDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614656F26091D1F3E0D8F97C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = E16566FA613A0D3129F9E8B8 /* Build configuration list for PBXProject "WrkstrmColorDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 09C56EFB292FA8E929C9D9B0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A4B7698E3D4910632402A090 /* XCLocalSwiftPackageReference "../../../../../../todo3/private/code/spm/kit/variant-kit" */,
+				5B152D067271C34F423E3974 /* XCLocalSwiftPackageReference "../.." */,
+				D8B45855479FDC2EA8FE3F62 /* XCLocalSwiftPackageReference "../../../../wrkstrm-app-shell/shared/spm/wrkstrm-shared-app-shell" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB38264A0ABC3A49E633E697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C53218D7F89F5DFA82B349 /* WrkstrmColorDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9576943B48F0EF11DBA6859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B994061534B8C9F137061BD /* AccessibilityWorkbench.swift in Sources */,
+				2182D08EB1604651E2094E09 /* PaletteShowcase.swift in Sources */,
+				7A9EBA6DE0CE57D922E9A27E /* RootView.swift in Sources */,
+				E956EEF8C47B1789DA080319 /* Variants.swift in Sources */,
+				7E1F582B1E48A52C4D39BECF /* WrkstrmColorDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BCCC2B9221D5F18E29EE046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C2E4E08CAD515301BD785516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C506F09C1695DBEFF582630A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrkstrm.color.demo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.1;
+			};
+			name = Release;
+		};
+		D0F32AB729AE68A6F6FA3275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrkstrm.color.demo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16566FA613A0D3129F9E8B8 /* Build configuration list for PBXProject "WrkstrmColorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCCC2B9221D5F18E29EE046 /* Debug */,
+				C2E4E08CAD515301BD785516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F81D799FAF53184AFC44C60C /* Build configuration list for PBXNativeTarget "WrkstrmColorDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F32AB729AE68A6F6FA3275 /* Debug */,
+				C506F09C1695DBEFF582630A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5B152D067271C34F423E3974 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+		A4B7698E3D4910632402A090 /* XCLocalSwiftPackageReference "../../../../../../todo3/private/code/spm/kit/variant-kit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../../../todo3/private/code/spm/kit/variant-kit";
+		};
+		D8B45855479FDC2EA8FE3F62 /* XCLocalSwiftPackageReference "../../../../wrkstrm-app-shell/shared/spm/wrkstrm-shared-app-shell" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../../wrkstrm-app-shell/shared/spm/wrkstrm-shared-app-shell";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2093A80A25764C5B6838D643 /* VariantKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VariantKit;
+		};
+		9E1BC990B9E79013FA3B86BC /* WrkstrmSharedAppShell */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WrkstrmSharedAppShell;
+		};
+		D7B422F2736E3AD39D615833 /* WrkstrmColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WrkstrmColor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 614656F26091D1F3E0D8F97C /* Project object */;
+}

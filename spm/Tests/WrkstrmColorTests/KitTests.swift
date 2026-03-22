@@ -5,6 +5,7 @@ import Testing
 
 #if canImport(UIKit)
 import CoreGraphics
+import UIKit
 
 @Suite
 struct UIKitTests {
@@ -44,7 +45,8 @@ struct UIKitTests {
   }
 }
 
-#elseif os(macOS)
+#elseif canImport(AppKit)
+import AppKit
 
 @Suite
 struct AppKitTests {

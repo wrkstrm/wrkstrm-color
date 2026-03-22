@@ -1,0 +1,29 @@
+name: WrkstrmColorDemo
+options:
+  minimumXcodeGenVersion: 2.39.0
+packages:
+  VariantKit:
+    path: ../../../../../../todo3/private/code/spm/kit/variant-kit
+  WrkstrmColor:
+    path: ../..
+  WrkstrmSharedAppShell:
+    path: ../../../../wrkstrm-app-shell/shared/spm/wrkstrm-shared-app-shell
+targets:
+  WrkstrmColorDemoApp:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: Sources
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.wrkstrm.color.demo
+        SWIFT_VERSION: 6.1
+    dependencies:
+      - package: VariantKit
+        product: VariantKit
+      - package: WrkstrmColor
+        product: WrkstrmColor
+      - package: WrkstrmSharedAppShell
+        product: WrkstrmSharedAppShell

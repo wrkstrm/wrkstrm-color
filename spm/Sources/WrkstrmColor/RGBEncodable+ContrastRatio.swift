@@ -3,12 +3,12 @@ import Foundation
 extension RGBEncodable {
   /// Relative luminance of a color according to W3's WCAG 2.0:
   /// https://www.w3.org/TR/WCAG20/#relativeluminancedef
-  var luminance: Value {
+  public var luminance: Value {
     let (red, green, blue) = components as Components<Value>
     return 0.212_6 * red + 0.715_2 * green + 0.072_2 * blue
   }
 
-  var luminanceSaturated: Value {
+  public var luminanceSaturated: Value {
     let (red, green, blue) = components
     let luminance =
       0.212_6 * invGamSRGB(inverseColor: red) + 0.715_2 * invGamSRGB(inverseColor: green) + 0.072_2
@@ -26,7 +26,7 @@ extension RGBEncodable {
 
   /// Contrast ratio between two colors according to W3's WCAG 2.0:
   /// https://www.w3.org/TR/WCAG20/#contrast-ratiodef
-  func contrastRatio(to other: some RGBEncodable) -> Value {
+  public func contrastRatio(to other: some RGBEncodable) -> Value {
     let ourLuminance = luminance
     let theirLuminance = other.luminance
     let lighterColor: Value = .init(min(Double(ourLuminance), Double(theirLuminance)))
